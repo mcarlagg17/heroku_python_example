@@ -1,2 +1,6 @@
-
+flask
+jinja2
+markupsafe2
+itsdangerous
+click
 gunicorn
