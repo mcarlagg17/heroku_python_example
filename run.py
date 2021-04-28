@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-a=3
-b=2
-sum = a+b
-print(sum)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
